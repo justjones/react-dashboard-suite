@@ -1,0 +1,71 @@
+.table tbody tr:hover {
+  background: rgba(255, 255, 255, 0.045);
+}
+
+.tableWrap { overflow: auto; }
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+th, td {
+  text-align: left;
+  padding: 10px 8px;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+  white-space: nowrap;
+}
+
+th {
+  opacity: 0.75;
+  font-weight: 600;
+}
+
+.table tbody tr:hover {
+  background: rgba(255, 255, 255, 0.045);
+}
+
+.thSort {
+  cursor: pointer;
+  user-select: none;
+}
+
+.thSort__inner {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.thSort__arrow {
+  opacity: 0.8;
+  font-size: 11px;
+}
+
+.thSort:hover {
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.cell--right { text-align: right; }
+.cell--center { text-align: center; }
+.tableSkel {
+  display: grid;
+  gap: 10px;
+  padding: 8px;
+}
+
+.tableSkel__row {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.tableSkel__cell {
+  height: 12px;
+}
+
+.tableSkel__row {
+  display: grid;
+  grid-template-columns: repeat(var(--skel-cols, 4), minmax(0, 1fr));
+  gap: 10px;
+}
