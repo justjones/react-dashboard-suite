@@ -105,6 +105,7 @@ Manual QA Engineer transitioning into automation and frontend development, focus
 Available for freelance dashboard development and UI customization projects.
 
 ## 📸 Screenshots
+
 ![QA Dashboard](screenshots/qa.png)
 ![Admin Dashboard](screenshots/admin.png)
 ![Light Mode](screenshots/light.png)
