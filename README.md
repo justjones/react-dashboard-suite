@@ -97,7 +97,7 @@ npm run dev
 
 npm run build
 npm run preview
-
+```
 👩‍💻 About
 
 Manual QA Engineer transitioning into automation and frontend development, focused on building structured, scalable UI systems for real-world applications.
