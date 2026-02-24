@@ -23,9 +23,7 @@
 .card {
   border-radius: 14px;
   padding: 14px;
-  opacity: 0;
-  transform: translateY(6px);
-  transition: opacity 220ms ease, transform 220ms ease;
+  opacity: 1;  
 }
 
 .card--in {
